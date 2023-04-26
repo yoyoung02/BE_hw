@@ -16,11 +16,6 @@ a:link, a:visited {
     color: blueviolet;
 }
 
-.box1 {
-    text-align: center;
-    margin: 0 auto;
-}
-
 .container
 {
     text-align: center;
@@ -28,11 +23,43 @@ a:link, a:visited {
     font-family: 'Jua', sans-serif;
     font-size: x-large;
 }
-.nav-btn2 {
+
+.image {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.box1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav-btn1 {
     text-align: center;
     margin: 0 auto;
     font-family: 'Poor Story', cursive;
     font-size: large;
+    list-style-type: none;
+    margin: 0;
+}
+
+.box2 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav-btn2 {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Poor Story', cursive;
+    font-size: large;
+    list-style-type: none;
+}
+
+.box3 {
+    text-align: center;
+    margin: 0 auto;
 }
 
 .nav-btn3 {
@@ -53,17 +80,12 @@ nav {
     line-height: 30px;
 }
 
-.nav-btn2 {
-    list-style-type: none;
-    margin: 0;
-}
-
 .nav-btn3 {
     list-style-type: none;
     margin: 0;
 }
 
-ul.box1 > li {
+ul.nav-btn1 > li {
     float: none;
     margin: 25px;
 }
